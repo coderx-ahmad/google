@@ -1,111 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-
-body {
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    font-family: 'Open Sans', sans-serif;
+body{
+	background:white;
+	height:700px;
+	margin:0px;
+	padding:0px;
+	
 }
-
-.box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30rem;
-    padding: 3.5rem;
-    box-sizing: border-box;
-    border: 1px solid #dadce0;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+.base{
+	position:absolute;
+	width:100%;
+	top:0px;
+	left:0px;
+	color:gray;
 
 }
-
-.box h2 {
-    margin: 0px 0 -0.125rem;
-    padding: 0;
-    text-align: center;
-    color: #202124;
-    font-size: 24px;
-    font-weight: 400;
+#logo{
+	
+	margin-top:20px;
+	
+	height:38px;
+	width:500px;
 }
 
-.box .logo 
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 16px;
+#info1{
+	width:500px;
+	margin-top:25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:38px;
+	color:#555557;
+	
+}
+#info2{
+	width:500px;
+	margin-top:17px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#555557;
+	
+}
+#form1{
+	margin-top:17px;
+	width:355px;
+	height:280px;
+    padding-top:40px;
+	background:#f7f7f7;
+	box-shadow: 0px 1px 1px 1px #c6c1c1;
 
 }
-
-.box p {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    margin-bottom: 24px;
-    text-align: center;
+#form-img{
+	
+	width:99px;
+	height:99px;
+}
+#mailbox{
+	width:270px;
+	height:42px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	
+	font-size:18px;
+	margin-top:20px;
+	border-width: 0px;
+	border-style:solid;
+	border-color: blue;
+}
+#button2{
+	width:270px;
+	height:35px;
+	
+	margin-top:10px;
+	background:#498af2;
+	font-family:verdana;
+	font-size:14px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+	
+}
+#info3{
+	float:right;
+	margin-top:10px;
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+	color:#498af2;
+	padding-right:42px;
+	font-weight:bold;
+}
+#info3 a{
+	color:#498af2;
+	text-decoration:none;
+}
+#info4{
+	margin-top:25px;
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+	
+	font-weight:bold;
+}
+#info4 a{
+	color:#498af2;
+	text-decoration:none;
+}
+#info5{
+	margin-top:30px;
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+	color:#87898b;
+	font-weight:bold;
 }
 
-.box .inputBox {
-    position: relative;
+#logo2{
+	
+	margin-top:10px;
+	height:27px;
+	width:243px;
 }
-
-.box .inputBox input {
-    width: 93%;
-    padding: 1.3rem 10px;
-    font-size: 1rem;
-   letter-spacing: 0.062rem;
-   margin-bottom: 1.875rem;
-   border: 1px solid #ccc;
-   background: transparent;
-   border-radius: 4px;
+#bottom {
+	float:left;
+	padding:0px;
+	margin:0px;
+	
 }
-
-.box .inputBox label {
-    position: absolute;
-    top: 0;
-    left: 10px;
-    padding: 0.625rem 0;
-    font-size: 1rem;
-    color: gray;
-    pointer-events: none;
-    transition: 0.5s;
+#bottom ul{
+	list-style: none;
+	
 }
-
-.box .inputBox input:focus ~ label,
-.box .inputBox input:valid ~ label,
-.box .inputBox input:not([value=""]) ~ label {
-    top: -1.125rem;
-    left: 10px;
-    color: #1a73e8;
-    font-size: 0.75rem;
-    background-color: #fff;
-    height: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.box .inputBox input:focus {
-    outline: none;
-    border: 2px solid #1a73e8;
-}
-
-.box input[type="submit"] {
-    border: none;
-    outline: none;
-    color: #fff;
-    background-color: #1a73e8;
-    padding: 0.625rem 1.25rem;
-    cursor: pointer;
-    border-radius: 0.312rem;
-    font-size: 1rem;
-    float: right;
-  }
-
-  .box input[type="submit"]:hover {
-    background-color: #287ae6;
-    box-shadow: 0 1px 1px 0 rgba(66,133,244,0.45), 0 1px 3px 1px rgba(66,133,244,0.3);
-  }
+#bottom ul li{
+	float:left;
+	margin-left:20px;
+     
+	
+}a
